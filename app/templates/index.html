@@ -9,15 +9,15 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>Free Mix Analyzer - AI Audio Analysis Tool at No Cost</title>
+    <title>Audio Analyzer - AI Audio Analysis</title>
 
     <!-- Improved SEO Meta Tags -->
     <meta name="description"
         content="100% Free AI audio analysis for music producers worldwide. Analyze spectrum, dynamics, stereo imaging & get mix improvement tips at no cost.">
     <meta name="keywords"
-        content="free audio analysis, no cost mix analyzer, 3D audio analysis, spatial audio mixing, AI mix analyzer, Dolby Atmos mixing, immersive audio, surround sound analysis, free music production, artificial intelligence mixing, frequency spectrum analysis, dynamic range, stereo field, EQ recommendations, free mastering assistance, frequency balance, transient analysis, harmonic content, audio mixing tool, spectral analysis, sound engineering tool, professional mixing, AI mix suggestions, spatial audio production">
+        content="audio analysis, 3D audio analysis, spatial audio mixing, AI mix analyzer, Dolby Atmos mixing, immersive audio, surround sound analysis, free music production, artificial intelligence mixing, frequency spectrum analysis, dynamic range, stereo field, EQ recommendations, free mastering assistance, frequency balance, transient analysis, harmonic content, audio mixing tool, spectral analysis, sound engineering tool, professional mixing, AI mix suggestions, spatial audio production">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Mix Analyzer">
+    <meta name="author" content="ADAM">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ secure_url(request.url) }}">
@@ -25,31 +25,29 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="Mix Analyzer">
+    <meta property="og:site_name" content="Audio Analyzer">
     <meta property="og:url" content="{{ secure_url(request.url) }}">
-    <meta property="og:title" content="Free Mix Analyzer - AI-Powered Audio Analysis for Music Producers Worldwide">
+    <meta property="og:title" content="AI-Powered Audio Analysis">
     <meta property="og:description"
-        content="Free professional AI audio analysis for music producers. Analyze frequency spectrum, dynamics, stereo imaging and get mix improvement suggestions at no cost.">
+        content="AI audio analysis: Analyze frequency spectrum, dynamics and stereo imaging.">
     <meta property="og:image"
         content="{{ secure_url(url_for('static', filename='img/ai-mix-analyzer-og.jpg', _external=True)) }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ secure_url(request.url) }}">
-    <meta property="twitter:title" content="Free Mix Analyzer - AI-Powered Audio Analysis for Music Producers Worldwide">
+    <meta property="twitter:title" content="AI Powered Audio Analysis">
     <meta property="twitter:description"
-        content="Free professional AI audio analysis for music producers. Analyze frequency spectrum, dynamics, stereo imaging and get mix improvement suggestions at no cost.">
-    <meta property="twitter:image"
-        content="{{ secure_url(url_for('static', filename='img/ai-mix-analyzer-og.jpg', _external=True)) }}">
-
+        content="AI audio analysis for music producers. Analyze frequency spectrum, dynamics and stereo imaging">
+ 
     <!-- Update WebApplication Schema with international context -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebApplication",
-        "name": "Free Mix Analyzer",
+        "name": "Audio Analyzer",
         "url": "{{ secure_url(request.url_root) }}",
-        "description": "Free professional AI audio analysis for music producers worldwide. Analyze frequency spectrum, dynamics, stereo imaging and get mix improvement suggestions at no cost.",
+        "description": "AI audio analysis for music producers worldwide. Analyze frequency spectrum, dynamics and stereo imaging.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Any",
         "dateModified": "{{ config.get('LAST_UPDATED', '2023-11-15') }}",
@@ -57,27 +55,26 @@
         "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "USD",
+            "priceCurrency": "GBP",
             "availability": "https://schema.org/InStock",
             "priceValidUntil": "2025-12-31",
             "availableAtOrFrom": {
                 "@type": "WebSite",
                 "url": "{{ secure_url(request.url_root) }}",
-                "name": "Free Mix Analyzer"
+                "name": "Audio Analyzer"
             }
         },
         "featureList": [
-            "Free 3D spatial audio analysis",
-            "Free Dolby Atmos mix visualization",
-            "Free immersive audio measurement",
-            "Free frequency spectrum analysis",
-            "Free AI-powered dynamic range measurement",
-            "Free stereo field visualization",
-            "Free artificial intelligence harmonic content analysis",
-            "Free transient detection",
-            "Free EQ recommendations",
-            "Free spectral flatness measurement",
-            "Free AI-powered mix suggestions at no cost"
+            "3D spatial audio analysis",
+            "Dolby Atmos mix visualization",
+            "Immersive audio measurement",
+            "Frequency spectrum analysis",
+            "AI-powered dynamic range measurement",
+            "Stereo field visualization",
+            "Artificial intelligence harmonic content analysis",
+            "Transient detection",
+            "EQ recommendations",
+            "Sectral flatness measurement"
         ]
     }
     </script>
@@ -102,16 +99,16 @@
     {
         "@context": "https://schema.org",
         "@type": "WebApplication",
-        "name": "Mix Analyzer",
+        "name": "Audio Analyzer",
         "url": "{{ secure_url(request.url_root) }}",
-        "description": "Free AI-powered 3D audio and spatial mix analysis tool for musicians, producers, and audio engineers. Analyze frequency spectrum, dynamics, stereo imaging, and get professional 3D audio mixing recommendations at no cost",
+        "description": "AI-powered 3D audio and spatial mix analysis tool for musicians, producers, and audio engineers. Analyze frequency spectrum, dynamics and stereo imaging.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Any",
-        "dateModified": "{{ config.get('LAST_UPDATED', '2023-11-15') }}",
+        "dateModified": "{{ config.get('LAST_UPDATED', '2025-09-22') }}",
         "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "USD"
+            "priceCurrency": "GBP"
         },
         "featureList": [
             "3D spatial audio analysis",
@@ -123,8 +120,7 @@
             "Artificial intelligence harmonic content analysis",
             "Transient detection",
             "EQ recommendations",
-            "Spectral flatness measurement",
-            "AI-powered mix suggestions at no cost"
+            "Spectral flatness measurement"
         ]
     }
     </script>
@@ -146,7 +142,7 @@
                     "offers": {
                         "@type": "Offer",
                         "price": "0",
-                        "priceCurrency": "USD"
+                        "priceCurrency": "GBP"
                     }
                 }
             },
@@ -161,7 +157,7 @@
                     "offers": {
                         "@type": "Offer",
                         "price": "0",
-                        "priceCurrency": "USD"
+                        "priceCurrency": "GBP"
                     }
                 }
             },
@@ -176,7 +172,7 @@
                     "offers": {
                         "@type": "Offer",
                         "price": "0",
-                        "priceCurrency": "USD"
+                        "priceCurrency": "GBP"
                     }
                 }
             },
@@ -191,7 +187,7 @@
                     "offers": {
                         "@type": "Offer",
                         "price": "0",
-                        "priceCurrency": "USD"
+                        "priceCurrency": "GBP"
                     }
                 }
             }
@@ -214,7 +210,7 @@
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Mix Analyzer",
+                "name": "Audio Analyzer",
                 "item": "{{ secure_url(request.url) }}"
             }
         ]
@@ -229,14 +225,14 @@
         "name": "Mix Analyzer",
         "url": "{{ secure_url(request.url_root) }}",
         "logo": "{{ secure_url(url_for('static', filename='img/music-analyzer-icon.svg', _external=True)) }}",
-        "description": "Free AI-powered audio analysis tool for musicians, producers, and audio engineers.",
+        "description": "I-powered audio analysis tool for musicians, producers, and audio engineers.",
         "sameAs": [
             "https://github.com/owgit/ai-music-mix-analyzer"
         ],
         "contactPoint": {
             "@type": "ContactPoint",
-            "contactType": "customer support",
-            "email": "info@uygarduzgun.com"
+            "contactType": "enginnering support",
+            "email": "adam@mccartn3y.net"
         }
     }
     </script>
@@ -295,7 +291,7 @@
         "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "USD"
+            "priceCurrency": "GBP"
         },
         "aggregateRating": {
             "@type": "AggregateRating",
@@ -341,7 +337,7 @@
                 "name": "What audio formats are supported for 3D spatial analysis?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Mix Analyzer supports multi-channel audio formats including Dolby Atmos (.atmos), AmbiX (.amb), and traditional formats like MP3, WAV, FLAC, AIFF, AIF, M4A, and PCM for comprehensive spatial audio analysis."
+                    "text": "Audio Analyzer supports multi-channel audio formats including Dolby Atmos (.atmos), AmbiX (.amb), and traditional formats like MP3, WAV, FLAC, AIFF, AIF, M4A, and PCM for comprehensive spatial audio analysis."
                 }
             },
             {
@@ -383,42 +379,7 @@
 
 <body>
     <div class="container">
-        <header>
-            <div class="header-container">
-                <div class="app-brand">
-                    <img src="{{ url_for('static', filename='img/music-analyzer-icon.svg') }}" alt="Mix Analyzer Logo"
-                        class="app-logo" aria-hidden="true">
-                </div>
-                <div class="header-right">
-                    <div class="app-title">
-                        <h1>AI-Powered Audio Analysis Tool</h1>
-                        <span class="free-badge">100% Free</span>
-                    </div>
-                    <div class="header-actions">
-                        <button type="button" id="open-feedback-btn" class="feedback-button" aria-label="Open feedback form">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
-                                aria-hidden="true">
-                                <path
-                                    d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
-                                    fill="currentColor" />
-                                <path
-                                    d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"
-                                    fill="currentColor" class="spinner" />
-                            </svg>
-                            Feedback
-                        </button>
-                        <a href="https://www.buymeacoffee.com/uygarduzgun" target="_blank" rel="noopener"
-                            id="buy-coffee-btn" class="coffee-button-container" aria-label="Buy me a coffee">
-                            <div class="coffee-button-blur"></div>
-                            <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=uygarduzgun&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff"
-                                alt="Buy Me A Coffee" class="coffee-button-img"
-                                onerror="this.onerror=null; this.parentNode.innerHTML='<div class=\'coffee-button-text\'>☕ Buy me a coffee</div>'" />
-                            <span class="heart-count">0</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <h1>DEV Harness</h1>
         <div class="header-spacing"></div>
         <main>
             <section class="upload-section" aria-labelledby="upload-section-title">
@@ -432,9 +393,8 @@
                         <div class="info-tooltip">
                             <span class="info-icon" aria-hidden="true">i</span>
                             <div class="tooltip-content" role="tooltip">
-                                Select this if your track has no vocals. It helps our audio analysis provide more
-                                relevant frequency analysis and EQ recommendations for musicians, producers and sound
-                                engineers for free.
+                                Select this if the track has no vocals. It helps the audio analysis engine provide more
+                                relevant frequency analysis and EQ recommendations.
                             </div>
                         </div>
                     </div>
@@ -445,7 +405,7 @@
                             <line x1="12" y1="8" x2="12" y2="16"></line>
                             <line x1="8" y1="12" x2="16" y2="12"></line>
                         </svg>
-                        <span>Important setting</span>
+                        <span>Performance Setting</span>
                     </div>
                 </div>
 
@@ -464,8 +424,6 @@
                                     <path d="M12 22.08V12" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
-                                <div class="ad-placeholder-text">Advertisement Space</div>
-                                <p>Your ad could be here!</p>
                             </div>
                         </div>
                     </div>
@@ -483,8 +441,6 @@
                                     <path d="M12 22.08V12" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
-                                <div class="ad-placeholder-text">Advertisement Space</div>
-                                <p>Your ad could be here!</p>
                             </div>
                         </div>
                     </div>
@@ -558,10 +514,6 @@
                                     <path d="M12 22.08V12" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
-                                <div class="mobile-ad-text">
-                                    <div class="mobile-ad-title">Advertisement Space</div>
-                                    <p>Your ad could be here!</p>
-                                </div>
                             </div>
                         </div>
 
@@ -916,7 +868,7 @@
                         <div class="analysis-card">
                             <h3>Spatial Analysis</h3>
                             <div class="analysis-description">
-                                <p>This innovative analysis evaluates how your mix utilizes three-dimensional space,
+                                <p>This analysis evaluates how your mix utilizes three-dimensional space,
                                     crucial for creating an immersive listening experience on modern playback systems
                                     including headphones, speakers, and surround environments.</p>
                             </div>
@@ -1037,7 +989,7 @@
                                 <h3>AI-Powered Mix Analysis</h3>
                                 <p class="ai-powered-by">Powered by <span id="ai-model-used">AI Model</span></p>
                                 <p class="ai-description">Comprehensive audio analysis powered by advanced AI models
-                                    that provide professional mixing and mastering insights tailored to your track</p>
+                                    that provide professional mastering insights tailored to your track</p>
                             </div>
 
                             <div class="ai-summary-card">
@@ -1094,23 +1046,13 @@
                     </div>
                 </div>
             </section>
-            <section class="intro-section">
-                <div class="intro-content">
-                    <h2>Free Professional Audio Analysis with AI</h2>
-                    <p>Transform your mix with our advanced AI-powered audio analysis tool. Our intelligent engine
-                        analyzes frequency spectrum, spatial imaging, dynamics, and harmonic content to deliver precise,
-                        actionable insights. Upload your audio file (MP3, WAV, FLAC, AIFF, M4A, PCM) to get instant
-                        professional-grade feedback tailored to your track. Perfect for producers, engineers, and
-                        musicians worldwide seeking studio-quality results without the guesswork.</p>
-                </div>
-            </section>
         </main>
 
         <footer class="site-footer">
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>AI-Powered Audio Analysis Tool</h3>
-                    <p>Free professional audio analysis tool with artificial intelligence for musicians, producers, and
+                    <p>Audio analysis tool with artificial intelligence for musicians, producers, and
                         sound engineers. Upload your tracks at no cost to get detailed frequency spectrum analysis,
                         dynamic range measurement, stereo field visualization, and AI-powered EQ improvement
                         suggestions.</p>
@@ -1160,95 +1102,10 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Mix Analyzer | Free tool created with professional audio analysis libraries, artificial
+                <p>&copy; 2025 Mix Analyzer | Audio analysis libraries, artificial
                     intelligence and spectral analysis tools</p>
-                <p class="footer-support">Love this tool?
-                    <span class="footer-coffee-container">
-                        <span class="footer-coffee-blur"></span>
-                        <a href="https://www.buymeacoffee.com/uygarduzgun" target="_blank" rel="noopener">
-                            <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=uygarduzgun&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff"
-                                alt="Buy Me A Coffee" class="footer-coffee-img"
-                                onerror="this.onerror=null; this.parentNode.innerHTML='☕ Buy me a coffee'" />
-                        </a>
-                    </span>
-                </p>
             </div>
         </footer>
-    </div>
-
-    <!-- Feedback Beta Modal -->
-    <div id="feedback-modal" class="modal-overlay">
-        <div class="modal-content feedback-modal-content">
-            <div class="modal-title">Beta Feedback</div>
-            <button type="button" class="close-button" id="close-feedback-modal">&times;</button>
-
-            <div class="feedback-form-container">
-                <form id="feedback-form">
-                    <div class="feedback-field">
-                        <label for="feedback-email">Email (optional)</label>
-                        <input type="email" id="feedback-email" name="email"
-                            placeholder="Your email for follow-up (optional)">
-                    </div>
-
-                    <div class="feedback-field">
-                        <label for="feedback-rating">How would you rate your experience?</label>
-                        <div class="star-rating">
-                            <input type="radio" id="star5" name="rating" value="5" required>
-                            <label for="star5" title="5 stars - Excellent">★</label>
-                            <input type="radio" id="star4" name="rating" value="4">
-                            <label for="star4" title="4 stars - Very Good">★</label>
-                            <input type="radio" id="star3" name="rating" value="3">
-                            <label for="star3" title="3 stars - Good">★</label>
-                            <input type="radio" id="star2" name="rating" value="2">
-                            <label for="star2" title="2 stars - Fair">★</label>
-                            <input type="radio" id="star1" name="rating" value="1">
-                            <label for="star1" title="1 star - Poor">★</label>
-                        </div>
-                    </div>
-
-                    <div class="feedback-field">
-                        <label for="feedback-type">What type of feedback do you have?</label>
-                        <select id="feedback-type" name="feedback_type" required>
-                            <option value="" disabled selected>Select a feedback type</option>
-                            <option value="bug">Bug Report</option>
-                            <option value="feature">Feature Request</option>
-                            <option value="improvement">Improvement Suggestion</option>
-                            <option value="usability">Usability Issue</option>
-                            <option value="praise">Praise</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-
-                    <div class="feedback-field">
-                        <label for="feedback-message">Your Feedback</label>
-                        <textarea id="feedback-message" name="message" rows="5"
-                            placeholder="Please share your thoughts, suggestions, or report issues... Your feedback helps us improve!"
-                            required></textarea>
-                    </div>
-
-                    <div class="feedback-field checkbox-field">
-                        <label class="checkbox-container">
-                            <input type="checkbox" id="feedback-consent" name="consent" required>
-                            <span class="checkbox-text">I consent to having this feedback stored for product improvement
-                                purposes</span>
-                        </label>
-                    </div>
-
-                    <div class="feedback-submit">
-                        <button type="submit" id="submit-feedback" class="feedback-submit-btn">Submit Feedback</button>
-                        <div id="feedback-status" class="feedback-status"></div>
-                    </div>
-                </form>
-
-                <!-- Success animation (shown when feedback is successfully submitted) -->
-                <div class="feedback-success-animation">
-                    <div class="checkmark-circle">
-                        <div class="checkmark"></div>
-                    </div>
-                    <span class="checkmark-text">Thank you for your feedback!</span>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- Delete Confirmation Modal -->
